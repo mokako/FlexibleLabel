@@ -2,7 +2,7 @@
 You can use the badge.
 
 ##Usage
----
+~~~
 badge = [[FlexibleLabel alloc]init];
     badge.font = [UIFont fontWithName:@"AvenirNext-Medium" size:10.0];
     badge.center = CGPointMake(20,30);
@@ -12,4 +12,4 @@ badge = [[FlexibleLabel alloc]init];
     badge.radius = 0.5;
     badge.padding = 1;
     [badge setValue:@"0"];
----
+~~~
